@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/xianyi_imageview1"
+            android:src="@drawable/btn_back_detail_normal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日头条用户协议"
+            android:textSize="25sp"
+            android:id="@+id/zhuce_textview1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/xianyi_imageview2"
+           android:src="@drawable/btn_more_title_detail_normal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/xianyi_webview"
+            ></WebView>
+    </LinearLayout>
+</RelativeLayout>

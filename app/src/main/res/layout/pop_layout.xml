@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+     <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="刷新"
+       android:id="@+id/pop_textview1"
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复制链接"
+        android:id="@+id/pop_textview2"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用浏览器打开"
+        android:id="@+id/pop_textview3"
+        />
+</LinearLayout>
